@@ -1,0 +1,37 @@
+.navigation {
+  height: 71px;
+}
+
+.top-links {
+  padding: 0.9em 17em;
+}
+
+.logo {
+  width: 100px;
+  height: 40px;
+  padding-right: 100px;
+}
+
+.directory {
+  display: inline-block;
+  margin-left: 182px;
+}
+
+li {
+  padding: 0 10px;
+  display: inline;
+}
+
+a {
+  color: #838994;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #333333;
+}
+
+.meet-karma {
+  font-weight: bold;
+  color: #4C5058;
+}
