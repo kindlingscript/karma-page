@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 *, *:before, *:after {
@@ -10,16 +11,15 @@ html {
   background-color: #fff;
 }
 
-.top-navigation > .content {
+.content {
   width: 55rem;
   height: 4.375rem;
-  margin: 0 auto;
+  margin: 0 auto 10px auto;
   padding: 20px 15px;
 }
 
 .top-navigation .links {
   float: right;
-  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   letter-spacing: 0.03em;
   -webkit-font-smoothing: antialiased;
@@ -43,4 +43,54 @@ html {
 a {
   text-decoration: none;
   color: #838994;
+}
+
+.introduction {
+  background-image: url('../images/hero-image.jpg');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 42rem;
+  text-align: center;
+  padding: 50px;
+}
+
+.introduction > .content {
+  padding-top: 200px;
+}
+
+.introduction h1 {
+  font-size: 3.125rem;
+  margin: 0;
+}
+
+.introduction h3 {
+  font-size: 1.563rem;
+  margin-top: 0.5rem;
+}
+
+h1, h3, h5 {
+  color: white;
+  font-weight: 100;
+}
+
+button {
+  background-color: #F15B2A;
+  border-color: #F15A29;
+  border-style: none;
+  width: 9.668rem;
+  color: white;
+  padding: 15px 25px;
+  font-size: 1.125rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px
+}
+
+button:hover {
+  background-color: #D9400E;
+  border-color: #D9400E;
+  border-style: none;
+  cursor: pointer;
 }
