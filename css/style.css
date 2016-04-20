@@ -1,4 +1,4 @@
-html {
+body {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
@@ -9,6 +9,9 @@ html {
 
 .top-navigation {
   background-color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
 }
 
 .content {
@@ -95,7 +98,7 @@ button:hover {
   cursor: pointer;
 }
 
-.three-icons h2 {
+.cases h2 {
   color: black;
   text-align: center;
   margin-top: 3em;
@@ -104,11 +107,11 @@ button:hover {
 }
 
 .icon-pack {
-  margin-left: 230px;
+  margin-left: 16.5rem;
 }
 
 .icons {
-  margin-left: 9.5rem;
+  margin-left: 8.3rem;
 }
 
 .info {
@@ -120,5 +123,5 @@ button:hover {
   font-size: 1.5rem;
   font-weight: 400;
   margin-left: 50px;
-  margin-top: 20px;
+  margin-top: 35px;
 }
