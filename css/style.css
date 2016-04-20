@@ -9,6 +9,7 @@ body {
 
 .top-navigation {
   background-color: #fff;
+  border-bottom: 1px solid #EAEBEC;
   position: fixed;
   width: 100%;
   z-index: 9999;
@@ -124,4 +125,27 @@ button:hover {
   font-weight: 400;
   margin-left: 50px;
   margin-top: 35px;
+}
+
+hr {
+  width: 900px;
+}
+
+.social {
+  margin-top: 125px;
+}
+
+.social > .content {
+  text-align: center;
+}
+
+hr {
+  color: #EAEBEC;
+  border-top: 1px;
+}
+
+.copy {
+  color: #838994;
+  font-weight: 300;
+  font-size: 0.9rem;
 }
